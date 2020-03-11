@@ -1,0 +1,3 @@
+{
+    type : 'REGISTERED_SUCCESS'
+}

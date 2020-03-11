@@ -1,0 +1,63 @@
+/***login***/
+.login-page{ background:url(../assets/images/login_body_bg.jpg) no-repeat; background-size:cover; background-position:center; position:relative; padding: 110px 0px 128px;}
+.login-title {margin-bottom: 50px; text-align: center;}
+.login-title h1 {font-size: 60px; color: #fff;  font-family: 'moskultra-bold_900';}
+.login-title h1 span {color: #ff5108;}
+.login-box {max-width: 970px; margin: 0 auto;}
+.left-log-bar {background: #f9f1eb; text-align: center; padding: 36px 0 0; color: #fff; min-height: 500px;}
+.right-log-bar { background: #fff;}
+.left-log-bar h2 {font-size: 26px; color: #333; font-weight: 300; font-family: 'Aileron Bold';}
+.left-log-bar h2::after {background: #ff5108; bottom: 0px; content: ""; height: 2px; display: table; left: 50%; width: 66px; margin: 10px auto 10px;}
+.left-log-bar a:hover {color: #f6bd01;}
+.or-icon { display: block; padding: 0px 0px; height: 35px; width: 35px; line-height: 31px; border: 2px solid #f9f1eb; position: absolute;right: -18px; top: 98px; -webkit-border-radius: 50%; border-radius: 50%; background: #fff;
+    color: #5c6571; font-size: 16px; z-index: 1;}
+.login-social-icons a {display: inline-block; margin: 0 4px;}
+.left-log-bar a {color: #fff;}	
+.login-left-bg { width: 100%;  padding: 0 10px;}
+.loginForm {clear: both;  padding: 36px 15px 0 20px;  text-align: left;}
+.loginForm .form-group {margin-bottom: 35px; position: relative;}
+.loginForm label {margin-bottom: 12px; font-size: 17px; color: #5c6571;}
+.loginForm label span.red-color{margin-top: -4px; display: inline-block; vertical-align: top;}
+.red-color {color: #f00;}
+.login-form-row { margin: 0 0px;}
+.form-icon-col { position: relative;}
+.form-icon-col i {position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); color: #939393; font-size: 18px; left: 20px;}
+.form-icon-col .fa-lock:before { font-size: 23px;}
+.loginForm .form-group input[type="text"], .loginForm .form-group input[type="password"], .loginForm .form-group input[type="email"], .loginForm .form-group input[type="tel"], .loginForm .form-group select, .loginForm .form-group textarea {background: #fff; border: 1px solid #dee6ec; border-radius: 0px; box-sizing: border-box; font-family:'Aileron'; color: #333; height: 57px; letter-spacing: 0; margin-bottom: 0; padding: 0 10px 0 10px; width: 100%; font-size: 16px;}
+.loginForm .form-group select{ padding:0 10px 0 15px; background:url(../assets/images/dropdown-arrow.png) no-repeat; background-position:97% center;}
+select.form-control:not([size]):not([multiple]){ height:57px;}
+.loginForm .form-group textarea {background: #333333 none repeat scroll 0 0;border: 1px solid #424241; border-radius: 0px; box-sizing: border-box; color: #a2a2a2; height: 90px; letter-spacing: 0; margin-bottom: 0; padding: 10px;
+    width: 100%;}
+.loginForm input[type="submit"] { background: #ff5108; border: 1px solid #ff5108; color: #fff; font-family: 'Aileron SemiBold'; font-size: 20px; height: 50px; line-height: 50px; text-align: center; display: inline-block;
+    padding: 0 40px; text-transform: uppercase; width: auto; margin-top: 0; cursor: pointer;}
+.forgotPassword { color: #555555; font-size: 16px; position: absolute; right: 0; top: 15px; font-weight: 300;}
+.forgotPassword a {color: #ff5108; font-size: 16px;}
+.form-icon-col input {padding-left: 50px !important;}
+.margin-B-0 { margin-bottom: 0px !important;}
+.login-note-text {font-size: 17px; color: #757575;}
+.login-note-text a{ color:#ff5108;}
+/***login***/
+
+/***register***/
+.register-page .loginForm {background: #fff; padding: 30px 30px;}
+.field-required {margin-bottom: 25px;}
+.field-required p {font-size: 18px; font-weight: 300; padding:0;}
+.register-page .form-group {width: 48%; float: left;}
+.register-page .form-group:nth-child(1n+2) { float: right;}
+.full-btn-col {text-align: right;}
+
+.abc-checkbox { padding-left: 0px; margin-top: 0px !important;}
+.abc-checkbox input[type="checkbox"], .abc-checkbox input[type="radio"] {opacity: 0; z-index: 1;}
+.abc-checkbox label {display: inline-block; vertical-align: middle; position: relative; padding-left: 10px;}
+.abc-checkbox label::before { content: ""; display: inline-block; position: absolute; width: 17px; height: 17px; left: 0; margin-left: -15px; border: 1px solid #ccc; border-radius: 3px; background-color: #ddd; 
+-ms-transition: all 0.5s ease; -o-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; transition: all 0.5s ease; top: 4px;}
+.abc-checkbox label::after {display: inline-block; position: absolute; width: 16px; height: 16px; left: 0; top: 2px; margin-left: -15px; padding-left: 0px; text-align: center; padding-top: 0px; font-weight: normal; 
+font-size: 11px; color: #55595c; line-height: 21px;}
+.abc-checkbox input[type="checkbox"]:checked + label::after, .abc-checkbox input[type="radio"]:checked + label::after {font-family: "FontAwesome"; content: "\f00c";}
+
+.register-page .form-group .propertyCheck {padding-top: 18px;}
+.propertyCheck input[type="checkbox"]:checked + label::before, .propertyCheck input[type="radio"]:checked + label::before {background-color: #ff8400; border-color: #ff8400;}
+.propertyCheck input[type="checkbox"]:checked + label::before { background-color: #fff; border-color: #dee5eb;}
+.propertyCheck input[type="checkbox"]:checked + label::after, .propertyCheck input[type="radio"]:checked + label::after { color: #ff5108;}
+.propertyCheck span {color: #ff5108;}
+/***register***/

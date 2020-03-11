@@ -1,0 +1,51 @@
+
+/*Global css*/
+/***fonts***/
+@font-face {
+  font-family: 'moskmedium_500';
+  src: url('./assets/fonts/mosk_medium_500-webfont.eot'); src: url('./assets/fonts/mosk_medium_500-webfont.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/mosk_medium_500-webfont.woff2') format('woff2'),
+       url('./assets/fonts/mosk_medium_500-webfont.woff') format('woff'), url('./assets/fonts/mosk_medium_500-webfont.ttf') format('truetype'), url('./assets/fonts/mosk_medium_500-webfont.svg#moskmedium_500') format('svg');
+  font-weight: normal; font-style: normal;
+}
+
+@font-face {
+  font-family: 'moskextra-bold_800';
+  src: url('./assets/fonts/mosk_extra-bold_800-webfont.eot'); src: url('./assets/fonts/mosk_extra-bold_800-webfont.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/mosk_extra-bold_800-webfont.woff2') format('woff2'),
+       url('./assets/fonts/mosk_extra-bold_800-webfont.woff') format('woff'), url('./assets/fonts/mosk_extra-bold_800-webfont.ttf') format('truetype'), url('./assets/fonts/mosk_extra-bold_800-webfont.svg#moskextra-bold_800') format('svg');
+  font-weight: normal; font-style: normal;
+}
+
+@font-face {
+  font-family: 'moskultra-bold_900';
+  src: url('./assets/fonts/mosk_ultra-bold_900-webfont.eot'); src: url('./assets/fonts/mosk_ultra-bold_900-webfont.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/mosk_ultra-bold_900-webfont.woff2') format('woff2'),
+       url('./assets/fonts/mosk_ultra-bold_900-webfont.woff') format('woff'), url('./assets/fonts/mosk_ultra-bold_900-webfont.ttf') format('truetype'), url('./assets/fonts/mosk_ultra-bold_900-webfont.svg#moskultra-bold_900') format('svg');
+  font-weight: normal; font-style: normal;
+}
+
+@font-face {
+  font-family:'Aileron';
+  src: url('./assets/fonts/Aileron.eot'); src: url('./assets/fonts/Aileron.eot?#iefix') format('embedded-opentype'),	url('./assets/fonts/Aileron.woff2') format('woff2'),	url('./assets/fonts/Aileron.woff') format('woff'),
+  url('./assets/fonts/Aileron.ttf') format('truetype'),	url('./assets/fonts/Aileron.svg#Aileron') format('svg');
+  font-weight: 400; font-style: normal; font-stretch: normal; unicode-range: U+0020-00FE;}
+
+@font-face {
+  font-family:'Aileron Light';
+  src: url('./assets/fonts/Aileron Light.eot'); src: url('./assets/fonts/Aileron Light.eot?#iefix') format('embedded-opentype'),	url('./assets/fonts/Aileron Light.woff2') format('woff2'),
+  url('./assets/fonts/Aileron Light.woff') format('woff'),	url('./assets/fonts/Aileron Light.ttf') format('truetype'),	url('./assets/fonts/Aileron Light.svg#Aileron Light') format('svg');
+  font-weight: 300;  font-style: normal; font-stretch: normal; unicode-range: U+0020-00FE;
+}
+
+@font-face {
+  font-family:'Aileron Bold';
+  src: url('./assets/fonts/Aileron Bold.eot'); src: url('./assets/fonts/Aileron Bold.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/Aileron Bold.woff2') format('woff2'), url('./assets/fonts/Aileron Bold.woff') format('woff'),
+  url('./assets/fonts/Aileron Bold.ttf') format('truetype'), url('./assets/fonts/Aileron Bold.svg#Aileron Bold') format('svg');
+  font-weight: 700; font-style: normal;  font-stretch: normal;  unicode-range: U+0020-00FE;
+}
+
+@font-face {
+  font-family:'Aileron SemiBold';
+  src: url('./assets/fonts/Aileron SemiBold.eot'); src: url('./assets/fonts/Aileron SemiBold.eot?#iefix') format('embedded-opentype'),	url('./assets/fonts/Aileron SemiBold.woff2') format('woff2'),
+  url('./assets/fonts/Aileron SemiBold.woff') format('woff'), url('./assets/fonts/Aileron SemiBold.ttf') format('truetype'),	url('./assets/fonts/Aileron SemiBold.svg#Aileron SemiBold') format('svg');
+  font-weight: 600;  font-style: normal; font-stretch: normal; unicode-range: U+0020-00FE;
+}
+/***fonts***/

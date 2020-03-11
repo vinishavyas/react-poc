@@ -1,0 +1,32 @@
+.banner-content {background-color: #202154; text-align: center;}
+.banner-content .container-fluid {max-width: 1920px;}
+.banner-detail {display: inline-block; width: 33%; vertical-align:top; text-align: center; padding-top: 158px;}
+.banner-left-detail {float: left;}
+.banner-detail h2 {font-family: 'moskmedium_500'; font-size:59px; color: #fff; margin-bottom: 52px;}
+.banner-detail h2 span{font-family: 'moskultra-bold_900';}
+.banner-buttons .btn-custom {width: 236px; height: 65px; border-radius: 30px; font-size: 24px; margin: auto; line-height: 65px; background-color: #fd8f5f; font-family: 'Aileron Bold';}
+.banner-buttons .btn-custom:hover{ color:#202154;}
+.banner-buttons .login-btn{ background-color:#fff; color: #fd8f5f;}
+.banner-buttons strong {color: #fff; margin: 38px 0; display: block; font-size: 24px; font-family: 'Aileron Bold';}
+
+.banner-middle-detail{ background:url(../assets/images/banner-img.jpg) no-repeat; background-position:center; height: 876px; position:relative; text-align: left;}
+.banner-middle-detail:before{ background-color:rgba(6,7,59,0.5); position:absolute; content:''; top:0; left:0; right:0; height:100%; width:100%;}
+.banner-text {padding: 92px 25px 0; position:relative;}
+.banner-text h1{font-family: 'moskmedium_500'; font-size:59px; color: #fff; padding-bottom:10px;} 
+.banner-text h1 span{font-family: 'moskultra-bold_900';}
+.banner-text p{ color:#fff; padding-bottom: 35px; font-size: 17px;}
+
+.search-job{ position:relative;}
+.search-job .form-control {background-color: #fff; height: 59px; border-radius: 30px; padding: 0 164px 0 25px; font-size: 17px; color: #3d3d3d;}
+.search-job .form-control::-webkit-input-placeholder{color:#3d3d3d;}
+.search-job .form-control::-moz-placeholder{color:#3d3d3d;}
+.search-job .form-control:-ms-input-placeholder{color:#3d3d3d;}
+.search-job .form-control:-moz-placeholder{color:#3d3d3d;}
+.search-job .search-btn {position: absolute; top: 5px; right: 8px; border-radius: 30px; height: 48px; width: 152px; color:#fff; font-size: 17px; text-transform: capitalize; background-color: #fd8f5f; padding:0 30px;}
+.search-job .search-btn img {margin-left: 18px;}
+
+/*Brand Logo*/
+.brand-logo {padding: 18px 0; background-color: #f6f7fb;}
+.brand-logo ul {display: flex; justify-content: space-between;}
+.brand-logo ul li a {filter: grayscale(1);}
+.brand-logo ul li a:hover{filter: grayscale(0);}
